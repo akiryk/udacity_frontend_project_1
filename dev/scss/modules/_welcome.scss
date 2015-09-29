@@ -1,0 +1,35 @@
+/*
+ * Welcome module
+ *
+ * Style the section for welcome text and a welcome title.
+ *
+ */
+
+.welcome {
+  max-width: 720px;
+  margin: 0 1em 2em 1em;
+}
+
+.welcome-title {
+ border-bottom: 1px solid #666;
+ line-height: 2;
+ margin-bottom: .5em;
+ color: white;
+ font-size: 2em;
+}
+
+.welcome-text {
+  color: #aaa;
+  font-family: Georgia, serif;
+  font-size: 1.25em;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: $tablet){
+
+  .welcome {
+    max-width: 720px;
+    margin: 0 auto 6em auto;
+  }
+
+}

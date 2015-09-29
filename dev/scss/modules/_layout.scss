@@ -1,0 +1,20 @@
+/*
+ * Layout Module
+ *
+ * Handle page-layout level styles.
+ *
+ */
+
+ .container {
+  max-width: $max-width;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (min-width: $tablet){
+
+  .container {
+    padding: 0 1em;
+  }
+
+}

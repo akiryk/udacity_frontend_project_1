@@ -1,0 +1,80 @@
+/*
+ * Masthead Module
+ *
+ * Style the banner with branding, site title, and logo.
+ *
+ */
+
+ .masthead-wrapper {
+  background-color: white;
+}
+.masthead {
+  margin: 0 auto;
+  text-align: center;
+  max-width: $max-width;
+}
+
+.logo {
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.title-wrapper {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-align-items: baseline;
+  align-items: baseline;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+
+.site-title {
+  font-size: 1.25em;
+  margin-right: 0.25em;
+  line-height: 1;
+}
+
+.site-tagline {
+  color: #555;
+  font-size: 1.25em;
+  line-height: 1;
+}
+
+@media screen and (min-width: $tablet){
+
+  .title-wrapper {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .masthead {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 1em 0;
+  }
+
+  .logo {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .site-title {
+    font-size: 2em;
+    line-height: 1.4;
+    margin: 0;
+    text-align: right;
+  }
+
+  .site-tagline {
+    color: #999;
+    text-align: right;
+  }
+}
